@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrderingApi.Business\OrderingApi.Business.csproj" />
+    <ProjectReference Include="..\OrderingApi.Common\OrderingApi.Common.csproj" />
+    <ProjectReference Include="..\OrderingApi.Services\OrderingApi.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>

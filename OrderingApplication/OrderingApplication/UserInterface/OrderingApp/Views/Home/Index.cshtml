@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    ViewBag.PaymentTypes = new List<string>{
+               "Physical product",
+                "Book",
+                "Membership",
+                "Upgrade",
+                "Learning to Ski video"
+            };
+}
+
+<div class="text-center">
+    <h1 class="display-4">Ordering App</h1>
+    <br />
+    @using (Html.BeginForm())
+    {
+        <fieldset>
+            Payment Type:
+            @Html.DropDownList("PaymentType", new SelectList(ViewBag.PaymentTypes), "- Select Payment Type -")
+            <p>
+                <br />
+                <input type="submit" value="Submit" onclick="return PaymentSelection()" />
+            </p>
+        </fieldset>
+    }
+
+    <div>
+        <h6>Result:</h6>
+        <p style="color:red"> @ViewBag.Result </p>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+
+    function PaymentSelection() {
+        var selection = document.getElementById('PaymentType').value;
+        if (selection == '') {
+            alert('Please select a payment type');
+            return false;
+        }
+
+        return true;
+    }
+
+</script>

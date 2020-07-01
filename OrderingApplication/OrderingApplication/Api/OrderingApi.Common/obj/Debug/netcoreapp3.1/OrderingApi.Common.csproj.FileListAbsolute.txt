@@ -1,0 +1,8 @@
+C:\OrderGit\New\OrderingApplication\OrderingApplication\Api\OrderingApi.Common\bin\Debug\netcoreapp3.1\OrderingApi.Common.deps.json
+C:\OrderGit\New\OrderingApplication\OrderingApplication\Api\OrderingApi.Common\bin\Debug\netcoreapp3.1\OrderingApi.Common.dll
+C:\OrderGit\New\OrderingApplication\OrderingApplication\Api\OrderingApi.Common\bin\Debug\netcoreapp3.1\OrderingApi.Common.pdb
+C:\OrderGit\New\OrderingApplication\OrderingApplication\Api\OrderingApi.Common\obj\Debug\netcoreapp3.1\OrderingApi.Common.csprojAssemblyReference.cache
+C:\OrderGit\New\OrderingApplication\OrderingApplication\Api\OrderingApi.Common\obj\Debug\netcoreapp3.1\OrderingApi.Common.AssemblyInfoInputs.cache
+C:\OrderGit\New\OrderingApplication\OrderingApplication\Api\OrderingApi.Common\obj\Debug\netcoreapp3.1\OrderingApi.Common.AssemblyInfo.cs
+C:\OrderGit\New\OrderingApplication\OrderingApplication\Api\OrderingApi.Common\obj\Debug\netcoreapp3.1\OrderingApi.Common.dll
+C:\OrderGit\New\OrderingApplication\OrderingApplication\Api\OrderingApi.Common\obj\Debug\netcoreapp3.1\OrderingApi.Common.pdb
